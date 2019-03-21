@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package>
+  <name>rqt_bag_meri_annotator</name>
+  <version>0.0.1</version>
+  <description>rqt_bag Annotator tool.</description>
+  <maintainer email="aaramirezd@gmail.com">Andres R</maintainer>
+
+  <license>BSD</license>
+
+  <author>Andres R</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>rosbag</run_depend>
+  <run_depend>roslib</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>rqt_bag</run_depend>
+  <run_depend>rqt_gui</run_depend>
+  <run_depend>rqt_gui_py</run_depend>
+  <run_depend>rqt_plot</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+  <export>
+    <architecture_independent/>
+    <rqt_gui plugin="${prefix}/plugin.xml"/>
+  </export>
+</package>

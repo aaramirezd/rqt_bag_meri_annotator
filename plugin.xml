@@ -1,0 +1,18 @@
+<library path="src">
+  <class name="BagMeriAnnotatorPlugin" type="rqt_bag_meri_annotator.meri_plugin.MeriPlugin" base_class_type="rqt_gui_py::Plugin">
+<!--  package_name.name_of_file.class_name -->
+    <description>
+       A plugin for rqt_bag for bag annotator and audio play tools
+    </description>
+    <qtgui>
+      <group>
+        <label>Logging</label>
+        <icon type="theme">folder</icon>
+        <statustip>Plugins related to logging.</statustip>
+      </group>
+      <label>Annotator Plugin</label>
+      <icon type="theme">applications-other</icon>
+      <statustip>A Python GUI rqt_bag-based plugin for annotating ROS bag files.</statustip>
+    </qtgui>
+  </class>
+</library>
